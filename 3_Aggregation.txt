@@ -1,0 +1,6 @@
+Aggregation:
+
+=MID(K2, FIND("'price': ", K2, FIND("Lenskart Price", K2)) + LEN("'price': "), FIND("}", K2, FIND("'price': ", K2, FIND("Lenskart Price", K2))) - FIND("'price': ", K2, FIND("Lenskart Price", K2)) - LEN("'price': "))
+
+
+=MID(K2, FIND("'price': ", K2, FIND("'Market Price'", K2)) + LEN("'price': "), FIND("}", K2, FIND("'price': ", K2, FIND("'Market Price'", K2))) - FIND("'price': ", K2, FIND("'Market Price'", K2)) - LEN("'price': "))

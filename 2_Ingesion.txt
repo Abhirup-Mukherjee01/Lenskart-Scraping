@@ -1,0 +1,11 @@
+Ingesion:
+Here in this step the data will be uploaded into a cloud storage like Azure SQL Server.
+The steps to upload-
+1. Right click on the specific database where we want to upload our data.
+2. Go to task -> import data..
+3. Data Source => Here we can set the type of file and the browsing path which we want to upload.
+4. Destination => Here we set the destination as Microsoft OLE DB Provider for SQL Server. Then Using SQL Server Authentication and selecting the databse we can select the destination of data.
+5. then set select Copy data from one or more tables or views option and click next.
+6. Here in this step we can change the mapping of the tables as well as renaming the table.
+7. In the next step select Run immediately and select next.
+8. Finally select next to upload the data into SQL server.
